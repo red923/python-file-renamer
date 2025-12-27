@@ -1,2 +1,17 @@
-# python-file-renamer
-Outil Python simple permettant de renommer en toute sécurité les fichiers d'un dossier.
+# Python File Renamer
+
+Simple and safe Python tool to rename all files in a folder.
+
+## Features
+- Custom base name
+- Safe renaming (no overwrite)
+- Log file generation
+
+## Requirements
+- Python 3.11+
+
+## Usage
+
+```bash
+python rename_files.py path/to/folder --base document
+
